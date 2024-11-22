@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./image/bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    background-color: lightgray;
+    padding: 0.5em;
+}
+nav > a {
+    font-size: 1.5em;
+    color: black;
+    display: inline-block;
+    height: 1.5em;
+    line-height: 1.5em;
+    padding: 0 1em;
+    border: 1px solid darkgray;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    text-decoration: none;
+}
+nav > a:hover {
+    background-color: rgb(9, 237, 237);
+    box-shadow: 0px 0px 5px black;
+}
+       .introduce{
+        width: 1600px;
+        margin: 0 auto;
+        padding: 20px 0;
+        display: flex;
+       }
+       .introduce .r1{
+            margin-right: 40px;
+            margin-top: 50px;
+       }
+       .introduce .r1 img{
+        border-radius: 50%;
+       }
+       .introduce .r2 p{
+           font-size: 20px;
+           margin-top: 50px;
+           line-height: 2.5em;
+           font-family:cursive,fantasy;
+       }
+    </style>
+</head>
+<body>
+    <nav>
+    <a href="./index.html">主页</a>&nbsp;<a href="./badminton-career.html">羽球生涯</a>&nbsp;</a><a href="./person.html">关于作者</a>
+    </nav>
+    <div>
+    <div class="introduce">
+    <div class="r1">
+    <img src="./person.jpg" alt="头像" width="220px">
+    </div>
+    <div class="r2">
+        <p>姓名:&nbsp;&nbsp;古西达布/Gusidab
+            <br>职业:&nbsp;&nbsp;web前端开发工程师
+            <br>工作经验:&nbsp;&nbsp;2年
+            <br>位置:&nbsp;&nbsp;浙江杭州
+        </p>
+    </div>
+    </div>
+    <div>
+        <div class="introduce">
+            <h2 style="margin-left: 75px;">学习经历</h2>
+            <div class="r1">
+            <img src="./edumaozi.png" alt="帽子" width="100px" >
+            </div>
+            <div class="r2">
+                <p>
+                    目前学习了C语言，Python,html,css,javascript <br>
+                    java以及部分网络安全知识并获得如下证明:
+                </p>
+            </div>
+    </div>
+    <table border="1" style="margin-left: 450px;">
+        <thead>
+            <th style="background-color: pink;">国家信息安全</th>
+            <th style="background-color: pink;">National information security</th>
+        </thead>
+        <tbody>
+            <tr>
+            <td>
+                <img src="./1.jpg" alt="" width="200px">
+            </td>
+            <td>
+                <img src="./2.jpg" alt="" width="200px">
+            </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
